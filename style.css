@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -16,6 +17,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(38, 49, 41);
 }
 
 .leftside img {
@@ -25,11 +27,8 @@ body {
 
 .rightside {
     width: 400px;
-    background-color: rgba(217, 244, 252, 0.445);
+    background-color: #50e6b93a;
     padding: 50px;  
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
 .rightside label {
@@ -44,4 +43,16 @@ body {
     padding: 8px;
     font-size: 14px;
     outline: 0;
+}
+
+.botao--cadastrar {
+    cursor: pointer;
+}
+
+.error {
+    font-size: 11px;
+    background-color: #FF0000;
+    color: #FFF;
+    padding: 4px;
+    border-radius: 5px;
 }
