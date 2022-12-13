@@ -28,7 +28,9 @@ body {
 .rightside {
     width: 400px;
     background-color: #50e6b93a;
-    padding: 50px;  
+    padding: 50px;
+    font-weight: 500;
+   
 }
 
 .rightside label {
@@ -38,15 +40,30 @@ body {
 
 .rightside input {
     width: 100%;
-    border: 1px solid #999;
+    border: 1px solid #0016103a;
     border-radius: 5px;
     padding: 8px;
     font-size: 14px;
     outline: 0;
 }
 
+.icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rightside img {
+    width: 50px;
+    margin-top: 60px;
+}
+
 .botao--cadastrar {
     cursor: pointer;
+    border: none;
+    color:rgb(0, 0, 0);
+    background-color: #50e6b93a;
+    font-weight: 500;
 }
 
 .error {
@@ -55,4 +72,28 @@ body {
     color: #FFF;
     padding: 4px;
     border-radius: 5px;
+}
+
+a {
+    color: #000;
+}
+
+.body--login {
+    background-color: #50e6b93a;
+}
+
+.container {
+    width: 50%;
+    height: 50%;
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 8px;
+}
+
+.container label {
+    display: block;
+    padding: 8px;
 }
