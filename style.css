@@ -30,7 +30,6 @@ body {
     background-color: #50e6b93a;
     padding: 50px;
     font-weight: 500;
-   
 }
 
 .rightside label {
@@ -80,20 +79,46 @@ a {
 
 .body--login {
     background-color: #50e6b93a;
+    ;
 }
 
-.container {
-    width: 50%;
-    height: 50%;
+.container--login {
     background-color: #fff;
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 40px;
+    font-weight: 500;
 }
 
-.container label {
+.container--login h1 {
+    text-align: center;
+}
+
+.container--login label {
     display: block;
+    margin-bottom: 20px;
+}
+
+.container--login input {
+    width: 300px;
+    border: 1px solid #0016103a;
+    border-radius: 5px;
     padding: 8px;
+    font-size: 14px;
+    outline: 0;
+}
+
+.botao--login {
+    cursor: pointer;
+    border: none;
+    color:rgb(0, 0, 0);
+    background-color: #50e6b93a;
+    font-weight: 500;
 }
