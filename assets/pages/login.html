@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/styles/style.css">
+    <title>Página de Login</title>
+</head>
+<body class="body--login">
+        <div class="container--login">
+        <h1>Fazer Login </h1>
+        <form method="POST" class="b7validator">
+          <label>
+            Seu email:<br />
+            <input type="text" name="email" data-rules="required|email" />
+          </label>
+          <label>
+            Sua senha:<br />
+            <input type="password" name="password" data-rules="required"/>
+          </label>
+
+          <label>
+            <input type="submit" value="Entrar" class="botao--login" />
+          </label>
+
+          <div>Não possui uma conta? <a href="/index.html">Cadastre-se</a>.</div>
+        </form>
+</div>
+
+<script src="/assets/scripts/script.js"></script>
+
+</body>
+</html>
