@@ -8,9 +8,7 @@
     <title>Página de Login</title>
 </head>
 <body class="body--login">
-    
-
-        <div class="container">
+        <div class="container--login">
         <h1>Fazer Login </h1>
         <form method="POST" class="b7validator">
           <label>
@@ -19,14 +17,18 @@
           </label>
           <label>
             Sua senha:<br />
-            <input type="password" name="password" />
+            <input type="password" name="password" data-rules="required"/>
           </label>
 
           <label>
-            <input type="submit" value="Entrar" class="botao--cadastrar" />
+            <input type="submit" value="Entrar" class="botao--login" />
           </label>
+
+          <div>Não possui uma conta? <a href="index.html">Cadastre-se</a>.</div>
         </form>
 </div>
+
+<script src="/script.js"></script>
 
 </body>
 </html>
